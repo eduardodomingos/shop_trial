@@ -30,4 +30,5 @@ function display_error($error_message) {
 
 
 session_start(); //useful for intensive session based applications
+session_regenerate_id();
 $errors=array();
